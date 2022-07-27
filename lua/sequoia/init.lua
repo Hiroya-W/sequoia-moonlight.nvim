@@ -1,4 +1,4 @@
-local theme require("sequoia.theme")
+local theme = require("sequoia.theme").setup()
 local M = {}
 
 local function highlight(group, color)
