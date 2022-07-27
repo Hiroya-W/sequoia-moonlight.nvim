@@ -6,10 +6,9 @@ function M.setup()
     colors = {
         none = "NONE",
         bg = "#0F1014",
-        bg2 = "#1f2028";
+        bg_cursor_line = "#18191e",
 
         fg = "#868690",
-        fg_select = "#17181e",
 
         base = "#0F1014",
         text = "#868690",
@@ -22,11 +21,15 @@ function M.setup()
         orange = "#ffbb88",
         gray = "#9898a6",
         white = "#fdfdfe",
-    }
 
-    colors.diff = {
-        add = "#1d1926",
-        delete = "#211924",
+        editorCursor = {
+            fg = colors.purple,
+            bg = colors.fg
+        },
+        editorLineNumber = {
+            active_fg = colors.fg,
+            fg = colors.slight
+        },
     }
 
     return colors
