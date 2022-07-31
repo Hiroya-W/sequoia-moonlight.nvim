@@ -16,8 +16,8 @@ function M.setup()
 
         DiffAdd    = { bg = c.diffEditor.incertedText_bg }, -- 差分モード: 追加された行
         DiffChange = { bg = c.diffEditor.changed_bg }, -- 差分モード: 変更された行
-        DiffDelete = { bg = c.removedText_bg }, -- 差分モード: 削除された行
-        DiffText   = { bg = c.diff_fg }, -- 差分モード: 変更された行中の変更されたテキスト
+        DiffDelete = { bg = c.diffEditor.removedText_bg }, -- 差分モード: 削除された行
+        DiffText   = { bg = c.diffEditor.diff_fg }, -- 差分モード: 変更された行中の変更されたテキスト
 
         -- EndOfBuffer バッファ中で最終行以降の領域を埋めるための行 (~)。
         -- ErrorMsg コマンドラインに現れるエラーメッセージ
@@ -112,6 +112,9 @@ function M.setup()
         Todo       = { fg = c.tokenColors.entity.name_fg, bg = c.bg },
     }
     theme.plugins = {
+        GitSignsAdd = { fg = c.diffEditor.incertedText_bg },
+        GitSignsChange = { fg = c.diffEditor.changed_bg },
+        GitSignsDelete = { fg = c.diffEditor.removedText_bg },
         -- TSFuncMacro = { link = "Macro" },
         -- TSTagDelimiter = { link = "Type" },
         -- TSComment = { link = "Comment" },

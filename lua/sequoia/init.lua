@@ -60,6 +60,10 @@ function M.colorscheme()
         highlight(group, color)
     end
 
+    for group, color in pairs(theme.plugins) do
+        highlight(group, color)
+    end
+
     terminal()
 end
 
