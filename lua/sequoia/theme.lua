@@ -135,6 +135,8 @@ function M.setup()
         NvimTreeGitNew = {fg = c.diffEditor.incertedText_bg },
         NvimTreeGitDeleted = {fg = c.diffEditor.removedText_bg},
         NvimTreeNormal = {fg = c.fg, bg = c.bg},
+        -- tree-sitter
+        TSTitle = { fg = c.purple },
         -- TSFuncMacro = { link = "Macro" },
         -- TSTagDelimiter = { link = "Type" },
         -- TSComment = { link = "Comment" },
