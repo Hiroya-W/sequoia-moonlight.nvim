@@ -32,7 +32,7 @@ function M.setup()
         CursorLineNr = { fg = c.editorLineNumber.active_fg, bg = c.bg }, -- カーソルがある行の行番号
         -- CursorLineSign  SignColumn と同じだが 'cursorline' が設定されたときに現在行に使われる。
         -- CursorLineFold  FoldColumn と同じだが 'cursorline' が設定されたときに現在行に使われる。
-        MatchParen = { bg = "#5f5073" }, -- 対応するかっこの場所
+        MatchParen = { fg = c.white }, -- 対応するかっこの場所
 
         -- ModeMsg  'showmode' のメッセージ (例. "-- INSERT --")
         -- MoreMsg more-prompt
