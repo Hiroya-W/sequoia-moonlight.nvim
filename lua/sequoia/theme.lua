@@ -36,7 +36,7 @@ function M.setup()
 
         -- ModeMsg  'showmode' のメッセージ (例. "-- INSERT --")
         -- MoreMsg more-prompt
-        --NonText         ウィンドウの端の '@' と 'showbreak' で設定された文字など、実際のテキストには存在しない文字(例. 全角文字が行末に収まらないとき ">" が表示される)。
+        NonText = { fg = c.non_text_fg }, -- ウィンドウの端の '@' と 'showbreak' で設定された文字など、実際のキストには存在しない文字(例. 全角文字が行末に収まらないとき ">" が表示される)。
         Normal = { fg = c.fg, bg = c.bg }, -- 通常のテキスト
 
         Pmenu = { fg = c.editorSuggestWidget.fg, bg = c.editorSuggestWidget.bg }, -- Pop up メニュー
@@ -47,7 +47,7 @@ function M.setup()
         --QuickFixLine    quickfixウィンドウ内の現在の quickfix 項目。
         Search = { fg = c.fg, bg = c.editor.findMatchHighlight_bg }, -- 最後の検索でヒットした単語のハイライト
         -- CurSearch       最後の検索パターンでの現在のマッチ('hlsearch' を参照)。
-        --SpecialKey      ":map" でリストされるメタキーと特別なキー。テキスト中のunprintableな文字を表示するのにも使われる。一般に: 実際とは異なる文字で表示されるテキスト
+        SpecialKey = { fg = c.special_key_fg }, -- ":map" でリストされるメタキーと特別なキー。テキスト中のunprintableな文字を表示するのにも使われる。一般に: 実際とは異なる文字で表示されるテキスト
         --SpellBad        スペルチェッカに認識されない単語。
         --SpellCap        大文字で始まるべき単語。
         --SpellLocal      スペルチェッカによって他の地域で使われると判断される単語。
@@ -134,7 +134,7 @@ function M.setup()
         -- TSFunction = { link = "Function" },
         -- TSOperator = { link = "Operator" },
         -- TSTag = { link = "MyTag" },
-        -- Folded = { link = "Comment" },
+        -- Folded = { link = "Comment" },g
         -- TSPunctSpecial = { link = "TSPunctDelimiter" },
         -- TSRepeat = { link = "Repeat" },
         -- TSParameter = { link = "Constant" },

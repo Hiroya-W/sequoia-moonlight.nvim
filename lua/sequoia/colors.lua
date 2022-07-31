@@ -6,7 +6,6 @@ function M.setup()
     colors = {
         none = "NONE",
         bg = "#0F1014",
-        bg_cursor_line = "#18191e",
 
         fg = "#868690",
 
@@ -25,6 +24,9 @@ function M.setup()
         gray = "#9898a6",
         white = "#fdfdfe",
     }
+    colors.bg_cursor_line = "#18191e"
+    colors.non_text_fg = colors.soft
+    colors.special_key_fg = colors.soft
 
     colors.editorCursor = {
         fg = colors.purple,
