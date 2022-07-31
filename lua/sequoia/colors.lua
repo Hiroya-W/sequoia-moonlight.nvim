@@ -67,9 +67,6 @@ function M.setup()
     colors.error_fg = colors.pink
     colors.diffEditor = {
         diff_fg = colors.orange,
-        -- incertedText_bg = "#282235", -- #0f1014 + #c58fff 0.86
-        -- removedText_bg = "#2f2231", -- #0f1014 + #f58ee0 0.86
-        -- changed_bg = "#312824", -- #0f1014 + #ffbb88 0.86
         incertedText_bg = colors.blue,
         removedText_bg = colors.pink,
         changed_bg = colors.orange,
