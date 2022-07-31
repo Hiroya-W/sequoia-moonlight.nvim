@@ -112,9 +112,18 @@ function M.setup()
         Todo       = { fg = c.tokenColors.entity.name_fg, bg = c.bg },
     }
     theme.plugins = {
+        -- GitSigns
         GitSignsAdd = { fg = c.diffEditor.incertedText_bg },
         GitSignsChange = { fg = c.diffEditor.changed_bg },
         GitSignsDelete = { fg = c.diffEditor.removedText_bg },
+        -- nvim-ts-rainbow
+        rainbowcol1 = { fg = c.editorBracketHighlight.fg1 },
+        rainbowcol2 = { fg = c.editorBracketHighlight.fg2 },
+        rainbowcol3 = { fg = c.editorBracketHighlight.fg3 },
+        rainbowcol4 = { fg = c.editorBracketHighlight.fg4 },
+        rainbowcol5 = { fg = c.editorBracketHighlight.fg5 },
+        rainbowcol6 = { fg = c.editorBracketHighlight.fg6 },
+        rainbowcol7 = { fg = c.editorBracketHighlight.fg7 },
         -- TSFuncMacro = { link = "Macro" },
         -- TSTagDelimiter = { link = "Type" },
         -- TSComment = { link = "Comment" },

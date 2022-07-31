@@ -28,6 +28,16 @@ function M.setup()
     colors.non_text_fg = colors.soft
     colors.special_key_fg = colors.soft
 
+    colors.editorBracketHighlight = {
+        fg1 = colors.pink,
+        fg2 = colors.blue,
+        fg3 = colors.gray,
+        fg4 = colors.purple,
+        fg5 = colors.orange,
+        fg6 = colors.white,
+        fg7 = colors.pink,
+    }
+
     colors.editorCursor = {
         fg = colors.purple,
         bg = colors.fg
