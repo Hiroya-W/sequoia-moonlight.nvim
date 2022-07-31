@@ -12,7 +12,7 @@ function M.setup()
         -- CursorIM Cursorと同じだが、IMEモードにいるとき使われるCursorIM。
         CursorColumn = { bg = c.bg_cursor_line }, -- カーソルがある列
         CursorLine = { bg = c.bg_cursor_line }, -- カーソルがある行
-        Directory = { fg = c.fg, bg = c.bg }, -- TODO
+        Directory = { fg = c.fg, bg = c.bg }, -- ディレクトリ名
 
         DiffAdd    = { bg = c.diffEditor.incertedText_bg }, -- 差分モード: 追加された行
         DiffChange = { bg = c.diffEditor.changed_bg }, -- 差分モード: 変更された行
@@ -124,6 +124,17 @@ function M.setup()
         rainbowcol5 = { fg = c.editorBracketHighlight.fg5 },
         rainbowcol6 = { fg = c.editorBracketHighlight.fg6 },
         rainbowcol7 = { fg = c.editorBracketHighlight.fg7 },
+        -- nvim-tree
+        NvimTreeSymlink = {fg = c.orange },
+        NvimTreeRootFolder = { fg = c.blue },
+        NvimTreeExecFile = {fg = c.blue },
+        NvimTreeSpecialFile = {fg = c.white },
+        NvimTreeImageFile = {fg=c.purple},
+        NvimTreeGitDirty = { fg = c.diffEditor.changed_bg },
+        NvimTreeGitStaged = {fg = c.blue },
+        NvimTreeGitNew = {fg = c.diffEditor.incertedText_bg },
+        NvimTreeGitDeleted = {fg = c.diffEditor.removedText_bg},
+        NvimTreeNormal = {fg = c.fg, bg = c.bg},
         -- TSFuncMacro = { link = "Macro" },
         -- TSTagDelimiter = { link = "Type" },
         -- TSComment = { link = "Comment" },
