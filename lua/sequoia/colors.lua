@@ -63,6 +63,7 @@ function M.setup()
         findMatch_bg = "#373643",
         findMatchHighlight_bg = "#373643",
         fold_bg = colors.interface,
+        rangeHighlight_bg = "#26262f"
     }
     colors.error_fg = colors.pink
     colors.diffEditor = {
