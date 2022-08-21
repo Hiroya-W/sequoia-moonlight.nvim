@@ -14,6 +14,8 @@ Sequoia theme created by [Michael Andreuzza](https://github.com/michael-andreuzz
 
 This Neovim theme is based on the color scheme of Sequoia for VS Code.
 
+This plugin for Neovim created and maintained by [Hiroya-W](https://github.com/Hiroya-W).
+
 ## Available
 
 - [x] Sequoia Moonlight is supported.
