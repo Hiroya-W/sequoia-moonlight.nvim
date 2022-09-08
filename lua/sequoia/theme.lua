@@ -135,6 +135,16 @@ function M.setup()
         NvimTreeGitNew = {fg = c.diffEditor.incertedText_bg },
         NvimTreeGitDeleted = {fg = c.diffEditor.removedText_bg},
         NvimTreeNormal = {fg = c.fg, bg = c.bg},
+
+        -- diff
+        diffFile = { fg = c.white },
+        diffOldFile = { fg = c.orange },
+        diffNewFile = { fg = c.orange },
+        diffLine = { fg = theme.base.Comment.fg },
+        diffIndexLine = { fg = c.white },
+        diffAdded = { fg = theme.base.DiffAdd.bg },
+        diffRemoved = { fg = theme.base.DiffDelete.bg },
+        diffChanged = { fg = theme.base.DiffChange.bg },
     }
     return theme
 end
