@@ -60,7 +60,7 @@ function M.setup()
         --TabLineFill     タブページの行の、ラベルがない部分
         --TabLineSel      タブページの行の、アクティブなタブページのラベル
         --Terminal        terminal ウィンドウ
-        --Title           ":set all"、":autocmd" などによる出力のタイトル。
+        Title = { fg = c.purple }, -- ":set all"、":autocmd" などによる出力のタイトル。
         Visual = { bg = c.editor.rangeHighlight_bg }, -- ビジュアルモード選択
         --VisualNOS       vimが "Not Owning the Selection" のときのビジュアルモード選択。これをサポートしているのはX11GUIgui-x11とxterm-clipboardのみ。
         --WarningMsg      警告メッセージ
