@@ -59,6 +59,16 @@ colorscheme sequoia
 vim.cmd[[colorscheme sequoia]]
 ```
 
+To enable theme for `lualine.nvim`.
+
+```lua
+require('lualine').setup {
+  options = {
+    theme = 'sequoia'
+  }
+}
+```
+
 ## License
 
 [MIT License](./LICENSE)
