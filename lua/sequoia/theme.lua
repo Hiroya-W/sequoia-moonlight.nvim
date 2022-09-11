@@ -137,6 +137,7 @@ function M.setup()
         NvimTreeNormal = {fg = c.fg, bg = c.bg},
 
         -- diff
+        -- committia
         diffFile = { fg = c.white },
         diffOldFile = { fg = c.orange },
         diffNewFile = { fg = c.orange },

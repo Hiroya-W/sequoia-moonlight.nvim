@@ -26,6 +26,7 @@ This plugin for Neovim created and maintained by [Hiroya-W](https://github.com/H
 
 Full support is not available yet.
 
+- [committia.vim](https://github.com/rhysd/committia.vim)
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 - [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
