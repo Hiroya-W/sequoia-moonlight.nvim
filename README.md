@@ -1,7 +1,6 @@
 # sequoia-moonlight.nvim
 
 Sequoia Moonlight for Neovim theme.
-**This theme is under development.**
 
 ![demo](https://user-images.githubusercontent.com/43127622/182034704-89f72177-98df-4737-979b-143b53e345c5.png)
 
@@ -22,9 +21,7 @@ This plugin for Neovim created and maintained by [Hiroya-W](https://github.com/H
 - [ ] Sequoia Monochrome **is not supported**.
 
 
-## Plugins to be supported
-
-Full support is not available yet.
+## Supported plugins
 
 - [committia.vim](https://github.com/rhysd/committia.vim)
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
