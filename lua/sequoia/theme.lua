@@ -125,16 +125,16 @@ function M.setup()
         rainbowcol6 = { fg = c.editorBracketHighlight.fg6 },
         rainbowcol7 = { fg = c.editorBracketHighlight.fg7 },
         -- nvim-tree
-        NvimTreeSymlink = {fg = c.orange },
+        NvimTreeSymlink = { fg = c.orange },
         NvimTreeRootFolder = { fg = c.blue },
-        NvimTreeExecFile = {fg = c.blue },
-        NvimTreeSpecialFile = {fg = c.white },
-        NvimTreeImageFile = {fg=c.purple},
+        NvimTreeExecFile = { fg = c.blue },
+        NvimTreeSpecialFile = { fg = c.white },
+        NvimTreeImageFile = { fg = c.purple },
         NvimTreeGitDirty = { fg = c.diffEditor.changed_bg },
-        NvimTreeGitStaged = {fg = c.blue },
-        NvimTreeGitNew = {fg = c.diffEditor.incertedText_bg },
-        NvimTreeGitDeleted = {fg = c.diffEditor.removedText_bg},
-        NvimTreeNormal = {fg = c.fg, bg = c.bg},
+        NvimTreeGitStaged = { fg = c.blue },
+        NvimTreeGitNew = { fg = c.diffEditor.incertedText_bg },
+        NvimTreeGitDeleted = { fg = c.diffEditor.removedText_bg },
+        NvimTreeNormal = { fg = c.fg, bg = c.bg },
 
         -- diff
         -- committia
