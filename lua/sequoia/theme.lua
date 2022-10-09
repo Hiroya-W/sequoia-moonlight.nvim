@@ -110,6 +110,9 @@ function M.setup()
         Ignore     = { fg = c.editorWhitespace.fg }, -- (見た目上)空白, 不可視  hl-Ignore
         Error      = { fg = c.error_fg }, -- エラーなど、なんらかの誤った構造
         Todo       = { fg = c.tokenColors.entity.name_fg, bg = c.bg },
+
+        ErrorMsg = { fg = c.error_fg, bg = c.bg },
+        WarningMsg = { fg = c.error_fg, bg = c.bg },
     }
     theme.plugins = {
         -- GitSigns
