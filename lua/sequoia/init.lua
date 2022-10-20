@@ -18,9 +18,11 @@ local function highlight(group, color)
 end
 
 local function terminal()
-    vim.g.terminal_color_0 = sequoia_colors.bg
-    vim.g.terminal_color_8 = sequoia_colors.bg
+    -- dark mode foreground color
+    vim.g.terminal_color_0 = sequoia_colors.fg
+    vim.g.terminal_color_8 = sequoia_colors.fg
 
+    -- light mode foreground color
     vim.g.terminal_color_7 = sequoia_colors.fg
     vim.g.terminal_color_15 = sequoia_colors.fg
 
