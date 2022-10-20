@@ -37,16 +37,16 @@ local function terminal()
     vim.g.terminal_color_11 = sequoia_colors.gray
 
     -- blue
-    vim.g.terminal_color_3 = sequoia_colors.purple
-    vim.g.terminal_color_11 = sequoia_colors.purple
+    vim.g.terminal_color_4 = sequoia_colors.purple
+    vim.g.terminal_color_12 = sequoia_colors.purple
 
     -- magenta
-    vim.g.terminal_color_4 = sequoia_colors.white
-    vim.g.terminal_color_12 = sequoia_colors.white
+    vim.g.terminal_color_5 = sequoia_colors.white
+    vim.g.terminal_color_13 = sequoia_colors.white
 
     -- cyan
-    vim.g.terminal_color_4 = sequoia_colors.orange
-    vim.g.terminal_color_12 = sequoia_colors.orange
+    vim.g.terminal_color_6 = sequoia_colors.orange
+    vim.g.terminal_color_14 = sequoia_colors.orange
 end
 
 function M.colorscheme()
