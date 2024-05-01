@@ -8,7 +8,7 @@ Sequoia Moonlight for Neovim theme.
 
 Sequoia theme created by [Michael Andreuzza](https://github.com/michael-andreuzza).
 
-- [Official Website/Color Palettes](https://sequoiatheme.com/)
+- [Official Website](https://www.michaelandreuzza.com/vscode/sequoia/)
 - [Sequoia for VS Code](https://github.com/Sequoia-Theme/vs-code)
 
 This Neovim theme is based on the color scheme of Sequoia for VS Code.
